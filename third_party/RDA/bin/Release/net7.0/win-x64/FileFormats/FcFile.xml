@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><!--
+  Interpreter for Fc Files
+-->
+<Converts>
+    <InternalCompression />
+    <Converts>
+        <Convert Path="//GuidVariationList" Structure="Cdata" Type="Int32" />
+        <Convert Path="//m_SequenceIds" Structure="Cdata" Type="Int32" />
+        <Convert Path="//DummyGroup" Structure="Cdata" Type="Int32" />
+        <Convert Path="//ValidSequenceIDs" Structure="Cdata" Type="Int32" />
+        <Convert Path="//ApproximationMapping" Structure="Cdata" Type="Int32" />
+    </Converts>
+</Converts>

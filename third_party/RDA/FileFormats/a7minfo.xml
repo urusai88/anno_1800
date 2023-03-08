@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Converts>
+    <Converts>
+        <Convert Path="//MapSize" Structure="List" Type="Int32" />
+    </Converts>
+</Converts>

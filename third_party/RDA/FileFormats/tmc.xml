@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><!--
+  Interpreter for CTT Files
+-->
+<Converts>
+    <Default Type="Int32" />
+    <InternalCompression />
+    <Converts>
+        <Convert Path="//FileName" Type="String" />
+        <Convert Path="//PositionsXZ" Structure="List" Type="Single" />
+        <Convert Path="//RotationsY" Structure="List" Type="Byte" />
+        <Convert Path="//Coverages" Structure="List" Type="Byte" />
+        <Convert Path="//UsedMaterialBits" Type="Int32" />
+
+        <Convert Path="//Indices" Structure="List" Type="Int16" />
+        <Convert Path="//Vertices" Structure="List" Type="Int16" />
+    </Converts>
+</Converts>

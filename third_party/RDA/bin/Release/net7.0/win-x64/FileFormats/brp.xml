@@ -1,0 +1,10 @@
+<Converts>
+    <Default Type="Int32" />
+    <InternalCompression />
+    <Converts>
+        <Convert Path="//Occlusion" Structure="List" Type="Single" />
+        <Convert Path="//Dimensions" Structure="List" Type="Int32" />
+        <Convert Path="//GridOriginRS" Structure="List" Type="Single" />
+        <Convert Path="//VoxelSizeRS" Type="Single" />
+    </Converts>
+</Converts>
